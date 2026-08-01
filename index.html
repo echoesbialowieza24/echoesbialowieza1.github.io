@@ -225,7 +225,7 @@
             line-height: 1.5;
         }
 
-        /* Rules Quick Banner Sus (Exact cum ai cerut) */
+        /* Rules Quick Banner */
         .rules-quick-banner {
             max-width: 620px;
             margin: 15px auto 25px auto;
@@ -261,7 +261,7 @@
         }
         .fancy-btn-view:hover { transform: scale(1.05); filter: brightness(1.1); }
 
-        /* Contact Section & 30 min cooldown */
+        /* Contact Section & Cooldown */
         .contact-section-wrapper {
             max-width: 620px;
             margin: 0 auto 50px auto;
@@ -458,7 +458,7 @@
             </div>
         </nav>
 
-        <!-- Menu Drawer (Rules pus sus în meniu) -->
+        <!-- Menu Drawer -->
         <div class="menu-drawer" id="menu-drawer">
             <div class="drawer-header">
                 <h3 class="dynamic-title">Navigation Menu</h3>
@@ -473,15 +473,15 @@
         </div>
 
         <header class="hero">
-            <!-- Imaginea ta oficială încărcată direct ca Base64 - se va vedea garantat 100% -->
+            <!-- Imaginea corectată direct pentru GitHub Pages -->
             <div class="hero-image-container">
-                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////wgALCAACAAIBAREA/8QAFBABAAAAAAAAAAAAAAAAAAAAAP/aAAgBAQABPxA=" alt="Echoes of Białowieża Logo" class="hero-3d-img" id="eob-official-img">
+                <img src="1000031254.jpg" alt="Echoes of Białowieża Logo" class="hero-3d-img" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'200\' height=\'200\' viewBox=\'0 0 200 200\'><rect width=\'200\' height=\'200\' rx=\'30\' fill=\'%2312141c\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' fill=\'%23ff7700\' font-size=\'24\' font-family=\'sans-serif\' font-weight=\'bold\'>EOB</text></svg>';">
             </div>
             <h1 class="dynamic-title">Echoes of Białowieża</h1>
             <p>Welcome to the official hub. Explore community features, guides, and connect with our development team.</p>
         </header>
 
-        <!-- Rules Quick Banner Plasat Sus -->
+        <!-- Rules Quick Banner -->
         <div class="rules-quick-banner">
             <div class="rules-card-top">
                 <div style="display: flex; align-items: center; gap: 12px;">
@@ -495,7 +495,7 @@
             </div>
         </div>
 
-        <!-- Contact Us Section -->
+        <!-- Contact Section -->
         <div class="contact-section-wrapper">
             <button class="contact-toggle-btn" onclick="toggleContactEmbed()">
                 <i class="fa-solid fa-envelope"></i> Contact Us (Support)
@@ -564,10 +564,6 @@
     </div>
 
     <script>
-        // Inserăm imaginea ta reală trimisă în fișier (asigură afișarea perfectă)
-        const realImg = document.getElementById('eob-official-img');
-        realImg.src = "1000031254.jpg"; // Dacă rulezi local, folosește numele fișierului tău sau URL-ul public.
-
         function toggleMenuDrawer() {
             const drawer = document.getElementById('menu-drawer');
             drawer.classList.toggle('active');
